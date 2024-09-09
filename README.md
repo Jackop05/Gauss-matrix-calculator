@@ -20,7 +20,7 @@ The program reads matrix data from files, performs Gaussian Elimination to solve
 ## 🔨 Usage
 1. Compile the files first and then run the program:
    ```bash
-   gcc -o gaussCalc main.c gauss.c backsubstr.c math_io.c
+   gcc -o gaussCalc main.c gauss.c backsubst.c math_io.c
    ./gaussCalc <matrix_A_file> <matrix_B_file>
 2. Example of a matrix:
    ```bash
