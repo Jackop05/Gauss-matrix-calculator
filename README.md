@@ -24,8 +24,10 @@ The program reads matrix data from files, performs Gaussian Elimination to solve
 1. Compile the files first and then run the program:
    ```bash
    gcc -o gaussCalc main.c gauss.c backsubst.c mat_io.c
-   ./gaussCalc <matrix_A_file> <matrix_B_file>
-2. Example of a matrix:
+2. Run the program:
+   ```bash
+   ./gaussCalc <matrix_A_file> <matrix_B_file>  
+3. Example of a matrix:
    ```bash
    3 3
    1 2 3
