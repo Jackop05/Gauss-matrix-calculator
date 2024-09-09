@@ -1,4 +1,4 @@
-# 🔢 Gauss Matrix Calculator
+# 🧮 Gauss Matrix Calculator
 
 ## 📝 Overview
 This C program is a **Gauss Matrix Calculator** designed to solve linear equations using **Gauss Elimination**. It can be used to find solutions to systems of linear equations where matrix \(A\) and matrix \(B\) are provided as input. The calculations are designed like matrixes **`Ax = B`**.
