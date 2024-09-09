@@ -33,7 +33,7 @@ The program reads matrix data from files, performs Gaussian Elimination to solve
    1 2 3
    4 5 6
    7 8 9
-Top 2 numbers say how many rows and columns matrix mas. 
+Top 2 numbers say how many rows and columns matrix has. 
    
 ## 🙋‍♂️ Authors
 - **Jakub Sztobryn** ~ Warsaw University of Technology student
