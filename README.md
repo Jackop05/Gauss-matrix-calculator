@@ -1,5 +1,11 @@
+# 🔢 Gauss Matrix Calculator
+
+## 📝 Overview
+This C program is a **Gauss Matrix Calculator** designed to solve linear equations using **Gauss Elimination**. It can be used to find solutions to systems of linear equations where matrix \(A\) and matrix \(B\) are provided as input. The calculations are designed like matrixes ``Ax = B``.
+
+The program reads matrix data from files, performs Gaussian Elimination to solve for the unknowns, and prints the result (matrix \(X\)) to the console. It supports back substitution to derive the solution vector.
+
 ## 💡 Features
-<!-- Features section listing out key capabilities of the program -->
 - **Gaussian Elimination**: Uses Gaussian Elimination to solve systems of equations.
 - **Back Substitution**: Once the upper triangular matrix is formed, the program applies back substitution to compute the solution.
 - **Matrix Operations**: Handles reading from files, matrix manipulation, and printing matrices to the console.
@@ -11,25 +17,18 @@
 - **`backsubstr.c`**: Implements back substitution which is a mathematical operation.
 - **`math_io.c`**: Reads from files and checks if they are all right. 
 
-## 💻 Compilation
-1. Compile the program:
-   ```bash
-   gcc -o mazeSolver main.c printMovesToConsole.c mazeSolver.c
-
 ## 🔨 Usage
 1. Compile the files first and then run the program:
    ```bash
-   gcc -o mazeSolver main.c printMovesToConsole.c mazeSolver.c
-   ./mazeSolver <maze_name>
-2. Example of a maze:
+   gcc -o gaussCalc main.c gauss.c backsubstr.c math_io.c
+   ./gaussCalc <matrix_A_file> <matrix_B_file>
+2. Example of a matrix:
    ```bash
-   ######
-   P    #
-   # ## #
-   #  # #
-   ####K#
-P is the beggining of the maze and K is the ending.    
+   3 3
+   1 2 3
+   4 5 6
+   7 8 9
+Top 2 numbers say how many rows and columns matrix mas. 
    
-
 ## 🙋‍♂️ Authors
 - **Jakub Sztobryn** ~ Warsaw University of Technology student
