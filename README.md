@@ -4,6 +4,8 @@
 This C program is a **Gauss Matrix Calculator** designed to solve linear equations using **Gauss Elimination**. It can be used to find solutions to systems of linear equations where matrix \(A\) and matrix \(B\) are provided as input. The calculations are designed like matrixes **`Ax = B`**.
 
 The program reads matrix data from files, performs Gaussian Elimination to solve for the unknowns, and prints the result (matrix \(X\)) to the console. It also uses back substitution to derive the solution vector.
+![image](https://github.com/user-attachments/assets/aa69139f-2fba-466b-8e87-7d80eefa2a97)
+
 
 ## 💡 Features
 - **Gaussian Elimination**: Uses Gaussian Elimination to solve systems of equations.
